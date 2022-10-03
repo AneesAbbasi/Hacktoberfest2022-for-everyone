@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+int main(){
+	int d1,d2,m1,m2,y1,y2,y3,y4;
+	cout<<"enter your date of birth"<<endl;
+	cin>>d1; cin>>d2; cin>>m1; cin>>m2; cin>>y1; cin>>y2; cin>>y3; cin>>y4;
+	int sum= d1+d2+m1+m2+y1+y2+y3+y4;
+	int m,d;
+	m=sum/10;
+	d=sum%10;
+	int sum2=m+d;
+	cout<<"Here is your lucky number "<<sum2;
+}
